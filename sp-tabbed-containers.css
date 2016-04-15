@@ -1,0 +1,113 @@
+button.close {
+  min-width: auto;
+}
+.btn.fetching {
+  background:#AAD3AA; 
+  border:#9AC39A;
+}
+.btn-success i, 
+.btn-danger i {
+  position: relative;
+  left:-5px;
+}
+
+.tabs-wrapper .nav-tabs>li>a:hover {
+  cursor: pointer;
+}
+
+.tabs-content {
+  padding-top:15px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.tabs-content img {
+  max-width: 100%;
+  margin-top:10px;
+  margin-bottom: 15px;
+}
+.edit-tabs, 
+.cancel-edit-tabs {
+  float: right;
+  font-size:11px;
+  font-style: italic;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.edit-tabs i, 
+.cancel-edit-tabs i {
+  font-size: 14px;
+  margin-right: 2px;
+}
+.edit-tabs:hover, 
+.cancel-edit-tabs:hover {
+  cursor: pointer;
+}
+
+.addNewTab {
+  position: relative;
+  font-style: italic;
+  padding-top: 1px;
+}
+.addNewTab i {
+  font-size: 11px;
+  position: relative;
+  top:-2px;
+}
+
+.delete-record {
+  margin-left: 5px;
+}
+.addNewContainer .delete-record {
+  display:none;
+}
+
+.action-btns {
+  margin-top: 5px;
+  padding-top: 20px;
+  border-top: 1px solid #ebebeb;
+}
+.bg-danger {
+  padding:7px 15px;  
+}
+.error {
+  clear:both;
+  margin-top: 5px;
+  font-size: 11px;
+  font-style: italic;
+  color: red;
+}
+
+@media(max-width:749px){
+  .edit-tabs, 
+  .cancel-edit-tabs {
+    margin-bottom:15px;
+  }
+  .tabs-wrapper .tabs-navigation ul.nav.nav-tabs {
+    padding-bottom: 15px;
+  }
+  .tabs-wrapper .tabs-navigation ul.nav.nav-tabs li {
+    float:none;
+    display:block;
+    clear:both;
+    margin-bottom: 5px;
+  }
+  .tabs-wrapper .nav-tabs>li.active>a {
+    border-top: none;
+  }
+  .tabs-wrapper .nav-tabs>li>a:hover {
+    border: none;
+  }
+}
+
+/****EDITOR PLUGIN******/
+.Editor-container #menuBarDiv {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+.Editor-container #menuBarDiv .btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+
